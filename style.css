@@ -19,6 +19,8 @@ body{
     box-sizing: border-box;
     background-color:var(--cor-secundaria);
     color:var(--cor-texto);
+    width:100%;
+
 }
 .cabecalho{
     padding: 2% 0% 0% 15%;
@@ -159,6 +161,7 @@ border: 0.125rem solid var(--cor-primaria);
     flex-direction: column;
     padding-left: 0%;
     padding-top:2rem;
+    padding: 25% 25%;
     
 
 }
@@ -166,10 +169,11 @@ border: 0.125rem solid var(--cor-primaria);
 .apresentacao__conteudo__titulo3{
     font-style:normal;
     margin: 0%;
-    text-decoration: underline black 0.5rem;
+    text-decoration: underline var(--cor-secundaria) 0.5rem;
 }
 .apresentacao__conteudo__texto3{
     width: 75%;
     font-size: 1.5rem;
     font-family: var(--fonte-texto);
+    
 }
